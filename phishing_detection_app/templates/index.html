@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Detection App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Phishing Detection System</h1>
+    <form method="POST">
+      <label>Select Input Type:</label>
+      <select name="data_type">
+        <option value="email">Email</option>
+        <option value="sms">SMS</option>
+        <option value="url">URL</option>
+      </select><br><br>
+      <label>Enter Text or URL:</label><br>
+      <textarea name="user_input" rows="5" cols="40" required></textarea><br><br>
+      <button type="submit">Detect</button>
+    </form>
+    {% if result %}
+      <h2>Prediction: {{ result }}</h2>
+    {% endif %}
+  </div>
+</body>
+</html>
