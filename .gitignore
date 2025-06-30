@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# MacOS/Windows system files
+.DS_Store
+Thumbs.db
+
+# Zip archives
+*.zip
