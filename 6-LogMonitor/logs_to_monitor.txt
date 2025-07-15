@@ -1,1 +1,1 @@
-D:\TARU\V th year\Intelligent Cyber security Lab\6-LogMonitor\dism.log
+D:\TARU\V th year\Intelligent Cyber security Lab\6-LogMonitor\example.log

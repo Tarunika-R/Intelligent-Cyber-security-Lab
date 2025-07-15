@@ -45,7 +45,10 @@ def initialize_hashes(file_paths):
     for path in file_paths:
         hash_val = compute_hash(path)
         if hash_val:
+            print(f"Inserting hash for: {path} -> {hash_val}")  # DEBUG
             c.execute("INSERT OR REPLACE INTO file_hashes (path, hash) VALUES (?, ?)", (path, hash_val))
+        else:
+            print(f"[ERROR] Unable to compute hash for: {path}")  # DEBUG
     conn.commit()
     conn.close()
 

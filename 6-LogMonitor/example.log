@@ -1,0 +1,12 @@
+2025-06-13 20:10:11, Info                  DISM   API: PID=8976 TID=2528 DismApi.dll:                                            - DismInitializeInternal
+2025-06-13 20:10:11, Info                  DISM   API: PID=8976 TID=2528 DismApi.dll: <----- Starting DismApi.dll session -----> - DismInitializeInternal
+2025-06-13 20:10:11, Info                  DISM   API: PID=8976 TID=2528 DismApi.dll:                                            - DismInitializeInternal
+2025-06-13 20:10:11, Info                  DISM   API: PID=8976 TID=2528 DismApi.dll: Host machine information: OS Version=10.0.26100, Running architecture=amd64, Number of processors=16 - DismInitializeInternal
+2025-06-13 20:10:11, Info                  DISM   API: PID=8976 TID=2528 DismApi.dll: API Version 10.0.26100.3912 - DismInitializeInternal
+2025-06-13 20:10:11, Info                  DISM   API: PID=8976 TID=2528 DismApi.dll: Parent process command line: taskhostw.exe - DismInitializeInternal
+2025-06-13 20:10:11, Info                  DISM   API: PID=8976 TID=2528 Input parameters: LogLevel: 2, LogFilePath: (null), ScratchDirectory: (null) - DismInitializeInternal
+2025-06-13 20:10:11, Info                  DISM   Initialized Panther logging at C:\WINDOWS\Logs\DISM\dism.log
+2025-06-13 20:10:11, Info                  DISM   API: PID=8976 TID=2528 Initialized GlobalConfig - DismInitializeInternal
+2025-06-13 20:10:11, Info                  DISM   API: PID=8976 TID=2528 Initialized SessionTable - DismInitializeInternal
+2025-06-13 20:10:11, Info                  DISM   API: PID=8976 TID=2528 Lookup in table by path failed for: DummyPath-2BA51B78-C7F7-4910-B99D-BB7345357CDC - CTransactionalImageTable::LookupImagePath
+hello world
