@@ -9,4 +9,3 @@
 2025-06-13 20:10:11, Info                  DISM   API: PID=8976 TID=2528 Initialized GlobalConfig - DismInitializeInternal
 2025-06-13 20:10:11, Info                  DISM   API: PID=8976 TID=2528 Initialized SessionTable - DismInitializeInternal
 2025-06-13 20:10:11, Info                  DISM   API: PID=8976 TID=2528 Lookup in table by path failed for: DummyPath-2BA51B78-C7F7-4910-B99D-BB7345357CDC - CTransactionalImageTable::LookupImagePath
-hello world
