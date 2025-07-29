@@ -19,3 +19,5 @@ Thumbs.db
 
 # Zip archives
 *.zip
+
+/8-Ransomware attack detection/output_pdfs
