@@ -1,0 +1,9 @@
+timestamp: Process start time
+process_id: Unique identifier
+user: User running the process
+process_name: Name of the the executable (ex. keylog.exe, chrome.exe)
+cpu_usage: Average CPU usage(%)
+memory_usage: Memory consumed (MB)
+keystroke_hook: 1 = intercepts keystrokes, 0 = does not
+network_activity: 1 = send data out, 0 = offline
+label: 1 = keylogger, 0 = normal (used for training only)
